@@ -2,6 +2,7 @@ import { NavButton } from "@/components/NavButton";
 import { File, HomeIcon, UsersRound } from "lucide-react";
 import Link from "next/link";
 import { ModeToggle } from "@/components/ModeToggle";
+import { LogoutLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 export const Header = () => {
   return (
